@@ -3,7 +3,7 @@
 }
 
 div.spacer {
-	height: 50px;
+	padding: 14px 100%;
 }
 
 div.bar {
@@ -29,7 +29,7 @@ div#topBar a {
 	display: block;
 	color: #f2f2f2;
 	text-align: center;
-	padding: 9px 12px;
+	padding: 9px 16px;
 	text-decoration: none;
 	font-size: 15px;
 }
@@ -63,13 +63,6 @@ div#topBar a.fltRight {
 	float: right;
 }
 
-div#topBar img {
-	height: 40px;
-	width: 40px;
-	margin: 3px;
-	padding: 0;
-}
-
 
 /*/topBar*/
 
@@ -89,7 +82,3 @@ div#bottomBar h5 {
 
 
 /*/bottomBar*/
-
-h2 {
-	padding: 50px;
-}

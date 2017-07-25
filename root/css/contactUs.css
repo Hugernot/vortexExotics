@@ -1,0 +1,106 @@
+body {
+    background-color: dimgrey;
+}
+
+h1 {
+    color: white;
+    margin: 25px;
+}
+
+h2 {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    margin: 15px auto;
+    padding: 20px;
+}
+
+div.spacer {
+    height: 50px;
+}
+
+div.bar {
+    background-color: #333;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, .8);
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+
+/*topBar*/
+
+div#topBar {
+    height: auto;
+    top: 0;
+}
+
+div#topBar a {
+    border-bottom: 3px solid #333;
+    color: #f2f2f2;
+    display: inline-block;
+    float: left;
+    font-size: 15px;
+    padding: 9px 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+div#topBar a:hover {
+    background-color: #ddd;
+    border-bottom: 3px solid orange;
+    color: black;
+}
+
+div#topBar a.fltLeft {
+    float: left;
+}
+
+div#topBar a#home {
+    margin: 0;
+    padding: ;
+}
+
+
+/*See why this margin doesn't work ^^^*/
+
+div#topBar a#home:hover {
+    color: black;
+}
+
+div#topBar a h4 {
+    margin: 0;
+    padding: 0;
+}
+
+div#topBar a.fltRight {
+    float: right;
+}
+
+div#topBar img {
+    height: 40px;
+    margin: 3px;
+    padding: 0;
+    width: 40px;
+}
+
+
+/*/topBar*/
+
+
+/*bottomBar*/
+
+div#bottomBar {
+    left: 0;
+    bottom: 0;
+}
+
+div#bottomBar h5 {
+    color: #f2f2f2;
+    margin: 0;
+    text-align: center;
+}
+
+
+/*/bottomBar*/

@@ -4,8 +4,6 @@ Little line that appears on top bar
 
 Why top bar doesn't appear at very top
 
-types of positioning and display
-
 Vortexotics name change? Hehe... probably not lel
 
 Page starts at the bottom

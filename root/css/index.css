@@ -23,7 +23,8 @@ div.spacer {
 }
 
 div.bar {
-    background-color: #333;
+    background-color: /*#333*/
+    rgba(33, 33, 33, .95);
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, .8);
     left: 0;
     overflow: hidden;
@@ -36,7 +37,7 @@ div.bar {
 /*topBar*/
 
 div#topBar {
-    height: auto;
+    height: 6vh;
     top: 0;
 }
 
@@ -46,7 +47,7 @@ div#topBar a {
     display: inline-block;
     float: left;
     font-size: 15px;
-    padding: 9px 12px;
+    padding: 3px 12px;
     text-align: center;
     text-decoration: none;
 }
@@ -63,7 +64,7 @@ div#topBar a.fltLeft {
 
 div#topBar a#home {
     margin: 0;
-    padding: ;
+    padding: 16px 0;
 }
 
 

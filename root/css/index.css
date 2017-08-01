@@ -22,9 +22,8 @@ div.spacer {
     height: 50px;
 }
 
-div.bar {
-    background-color: /*#333*/
-    rgba(33, 33, 33, .95);
+div.nav {
+    background-color: #333;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, .8);
     left: 0;
     overflow: hidden;
@@ -36,33 +35,36 @@ div.bar {
 
 /*topBar*/
 
-div#topBar {
-    height: 6vh;
+div#topNav {
+    height: auto;
     top: 0;
 }
 
-div#topBar a {
-    border-bottom: 3px solid #333;
+div#topNav a {
+    border-bottom: 3px solid #222;
     color: #f2f2f2;
     display: inline-block;
-    float: left;
-    font-size: 15px;
+    font-family: guerilla, sans-serif;
+    font-size: 18px;
     padding: 3px 12px;
     text-align: center;
     text-decoration: none;
 }
 
-div#topBar a:hover {
+div#topNav a:hover {
     background-color: #ddd;
-    border-bottom: 3px solid orange;
+    border-bottom: 3px solid #FF7100;
     color: black;
 }
 
-div#topBar a.fltLeft {
+div#topNav a.fltLeft {
     float: left;
 }
 
-div#topBar a#home {
+div#topNav a#home {
+    color: #FF7100;
+    font-size: 20px;
+    /*Font size doesn't work*/
     margin: 0;
     padding: 16px 0;
 }
@@ -70,20 +72,20 @@ div#topBar a#home {
 
 /*See why this margin doesn't work ^^^*/
 
-div#topBar a#home:hover {
+div#topNav a#home:hover {
     color: black;
 }
 
-div#topBar a h4 {
+div#topNav a h4 {
     margin: 0;
     padding: 0;
 }
 
-div#topBar a.fltRight {
+div#topNav a.fltRight {
     float: right;
 }
 
-div#topBar img {
+div#topNav img {
     height: 40px;
     margin: 3px;
     padding: 0;
@@ -99,6 +101,10 @@ div.petSec {
     background-repeat: no-repeat;
     height: auto;
     width: 100%;
+}
+
+div.petSec h2 {
+    font-family: guerilla;
 }
 
 div#aPets {
@@ -123,7 +129,7 @@ div.card {
     background-color: whitesmoke;
     border: 4px solid black;
     border-radius: 10px;
-    box-shadow: 0 0 5px 5px rgba(150, 150, 150, .5);
+    box-shadow: 0 0 5px 5px rgba(1, 34, 106, 0.5);
     display: inline-block;
     height: 350px;
     margin: 50px;
@@ -131,6 +137,9 @@ div.card {
 }
 
 div.card h3 {
+    color: black;
+    font-family: guerilla;
+    font-size: 30px;
     margin: 10px 0 10px 0;
     text-align: center;
 }
@@ -138,25 +147,33 @@ div.card h3 {
 div.card img {
     border: 3px solid black;
     border-radius: 10px;
-    box-shadow: 0 0 4px 4px rgba(150, 150, 150, .5);
+    box-shadow: 0 0 4px 4px rgba(1, 34, 106, 0.5);
     height: 50%;
-    margin: 0 15px;
-    width: 65%;
+    margin: 0 30px;
+    width: 80%;
 }
 
 div.card p {
+    font-family: "playtime", serif;
+    font-size: 16px;
+    font-weight: 600;
     margin: 5px 15px;
+    text-align: center;
 }
 
 div.card div.buy {
-    background-color: darkblue;
-    border-bottom: 4px solid black;
+    background-color: #0B44BC;
+    border-bottom: 4px solid #012269;
     border-radius: 5px;
     box-shadow: 0 0 1px 1px rgba(150, 150, 150, .5);
     float: right;
     height: 30px;
     margin: 10px;
     width: 80px;
+}
+
+div.card div.buy:hover {
+    background-color: #05318F;
 }
 
 div.card div.buy h4 {
@@ -171,12 +188,12 @@ div.card div.buy h4 {
 
 /*bottomBar*/
 
-div#bottomBar {
+div#bottomNav {
     bottom: 0;
     left: 0;
 }
 
-div#bottomBar h5 {
+div#bottomNav h5 {
     color: #f2f2f2;
     margin: 0;
     text-align: center;
@@ -184,3 +201,13 @@ div#bottomBar h5 {
 
 
 /*/bottomBar*/
+
+@font-face {
+    font-family: "guerilla";
+    src: url("../fonts/guerilla.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "playtime";
+    src: url("../fonts/playtime.ttf") format("truetype");
+}

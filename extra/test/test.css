@@ -6,24 +6,16 @@ body {
     background-color: dimgrey;
 }
 
-h1 {
-    color: white;
-    margin: 25px;
-}
 
-h2 {
-    background-color: rgba(0, 0, 0, .5);
-    color: white;
-    margin: 15px auto;
-    padding: 20px;
-}
+/*
 
 div.spacer {
     height: 50px;
 }
 
-div.bar {
-    background-color: /*#333*/ rgba(33, 33, 33, .95);
+div.nav {
+    background-color: #333;
+    rgba(33, 33, 33, .95);
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, .8);
     left: 0;
     overflow: hidden;
@@ -32,154 +24,75 @@ div.bar {
     z-index: 100;
 }
 
-
-/*topBar*/
-
-div#topBar {
-    height: auto;
+div#topNav {
+    height: 6vh;
     top: 0;
 }
 
-div#topBar a {
-    border-bottom: 3px solid #333;
+div#topNav a {
+    border-bottom: 3px solid #222;
     color: #f2f2f2;
     display: inline-block;
-    float: left;
-    font-size: 15px;
+    font-family: guerilla, sans-serif;
+    font-size: 18px;
     padding: 3px 12px;
     text-align: center;
     text-decoration: none;
 }
 
-div#topBar a:hover {
+div#topNav a:hover {
     background-color: #ddd;
-    border-bottom: 3px solid orange;
+    border-bottom: 3px solid #FF7100;
     color: black;
 }
 
-div#topBar a.fltLeft {
+div#topNav a.fltLeft {
     float: left;
 }
 
-div#topBar a#home {
+div#topNav a#home {
+    color: #FF7100;
+    font-size: 20px;
     margin: 0;
-    padding: ;
+    padding: 16px 0;
 }
 
 
-/*See why this margin doesn't work ^^^*/
-
-div#topBar a#home:hover {
+div#topNav a#home:hover {
     color: black;
 }
 
-div#topBar a h4 {
+div#topNav a h4 {
     margin: 0;
     padding: 0;
 }
 
-div#topBar a.fltRight {
+div#topNav a.fltRight {
     float: right;
 }
 
-div#topBar img {
+div#topNav img {
     height: 40px;
     margin: 3px;
     padding: 0;
     width: 40px;
-}
+}*/
 
-
-/*/topBar*/
-
-div.petSec {
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: auto;
-    width: 100%;
-}
-
-div#aPets {
-    background-image: url("../imgs/jungleCanopy.jpg");
-    background-position: bottom center;
-}
-
-div#tPets {
-    background-image: url("../imgs/jungleWallpaper.jpg");
-    background-position: center;
-}
-
-div#aqPets {
-    background-image: url("../imgs/waterTexture.jpg");
-    background-position: top center;
-}
-
-
-/*Card*/
-
-div.card {
-    background-color: whitesmoke;
-    border: 4px solid black;
-    border-radius: 10px;
-    box-shadow: 0 0 5px 5px rgba(150, 150, 150, .5);
-    display: inline-block;
-    height: 350px;
-    margin: 50px;
-    width: 300px;
-}
-
-div.card h3 {
-    margin: 10px 0 10px 0;
-    text-align: center;
-}
-
-div.card img {
-    border: 3px solid black;
-    border-radius: 10px;
-    box-shadow: 0 0 4px 4px rgba(150, 150, 150, .5);
-    height: 50%;
-    margin: 0 15px;
-    width: 65%;
-}
-
-div.card p {
-    margin: 5px 15px;
-}
-
-div.card div.buy {
-    background-color: darkblue;
-    border-bottom: 4px solid black;
-    border-radius: 5px;
-    box-shadow: 0 0 1px 1px rgba(150, 150, 150, .5);
-    float: right;
-    height: 30px;
-    margin: 10px;
-    width: 80px;
-}
-
-div.card div.buy h4 {
-    color: yellow;
-    margin: 3px auto;
-    text-align: center;
-}
-
-
-/*/card*/
-
-
-/*bottomBar*/
-
-div#bottomBar {
-    bottom: 0;
+div.nav {
+    background-color: #333;
     left: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
 
-div#bottomBar h5 {
+div#topNav {
+    top: 0;
+}
+
+ul li {
     color: #f2f2f2;
-    margin: 0;
+    display: inline-block;
     text-align: center;
 }
-
-
-/*/bottomBar*/
